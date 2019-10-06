@@ -1,0 +1,19 @@
+{
+  "name": "articles-products-and-express",
+  "version": "1.0.0",
+  "description": "Articles, Products, and Express - Oh my! Tests Let the tests drive your development or write your tests after. The choice is up to you! As for the testing tools use:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediarcj/articles-products-and-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mediarcj/articles-products-and-express/issues"
+  },
+  "homepage": "https://github.com/mediarcj/articles-products-and-express#readme"
+}
