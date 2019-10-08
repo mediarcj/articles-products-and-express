@@ -2,8 +2,10 @@
   "name": "articles-products-and-express",
   "version": "1.0.0",
   "description": "Articles, Products, and Express - Oh my! Tests Let the tests drive your development or write your tests after. The choice is up to you! As for the testing tools use:",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "run": "server.js",
+    "nodemon": "server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "handlebars": "^4.4.2",
-    "knex": "^0.19.4",
+    "knex": "^0.19.5",
     "method-override": "^3.0.0",
     "nodemon": "^1.19.3",
     "pg": "^7.12.1"
