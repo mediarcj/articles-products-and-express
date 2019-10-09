@@ -4,5 +4,5 @@ node_modules/
 # Hidden files
 .env*
 
-# Docker files
-[Dd]ocker*
+# # Docker files
+# [Dd]ocker*
