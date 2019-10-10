@@ -3,7 +3,7 @@ services:
   my-app:
     image: mediarcj/articles-products-and-express:${IMAGE_VERSION}-local
     depends_on:
-      - db
+      - postgres-db
     command: ["./node_modules/.bin/nodemon", "server.js"]
     container_name: my-app-articles-products
     volumes:
@@ -15,7 +15,7 @@ services:
       - "${EXPRESS_HOST_PORT}:${EXPRESS_CONTAINER_PORT}"
     networks:
       - my-app-network
-  db:
+  postgres-db:
     image: postgres:10.0-alpine
     env_file: .env
     volumes: 
